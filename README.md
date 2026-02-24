@@ -1,45 +1,36 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img width="418" height="120" alt="Azure Logo" src="https://github.com/user-attachments/assets/3b6347a2-5104-4eb2-b4a2-0a7a28524ee0" />
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+<h1>Common Networking Commands</h1>
+Trouble shooting network issues is very common in IT work. Network commands are a very important tools you should know how to use. 
+In this tutorial I will show you how to use 3 very common ones: 
 
+- Ping 
+- Nslookup 
+- Ipconfig
 
-<h2>Video Demonstration</h2>
+We will explore these commands in the Windows VM from the last tutorial.
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- Powershell
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows 11
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Login to our Windows VM from the last tutorial 
+- Open powershell
+- Run some common networking commands
 
-- There are 3 basic networking commands everyone should know 
-
-Ping 
-Nslookup 
-Ipconfig 
-
-We will use the windows VM to explain how they work  
-
-
-<h2>Actions and Observations</h2>
+<h2>Commands</h2>
 
 <p>
 <img width="1117" height="632" alt="Snapshot#35" src="https://github.com/user-attachments/assets/a34d00f0-8c59-4b89-8075-514d3a448d3f" />
@@ -72,5 +63,11 @@ Ipcongid /all will show more delta
 Ipconfig /lfushdns will clear dns cache 
 
 There is much more you can do, but this is just scratching the surface.
+</p>
+<br /> 
+
+
+<p>
+Awesome! You know some very important network commands. This is just streacthing the surface of evrything you can do. You should research more commands to exapnd your tool set.
 </p>
 <br />
